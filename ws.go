@@ -1,16 +1,12 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"github.com/gorilla/websocket"
-	"io/ioutil"
+	// "io/ioutil"
 	"log"
 	"net/http"
 )
-
-type msg struct {
-	Num int
-}
 
 func main() {
 	// http.HandleFunc("/ws", wsHandler)
